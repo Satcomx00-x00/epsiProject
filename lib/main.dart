@@ -3,6 +3,7 @@ import 'package:projectepsi/View/home_page.dart';
 import 'firebase_options.dart';
 import 'package:firebase_core/firebase_core.dart';
 import 'dart:io';
+
 void main() async {
   await WidgetsFlutterBinding.ensureInitialized();
   if(Platform.isIOS || Platform.isAndroid){
@@ -21,7 +22,6 @@ void main() async {
           authDomain: 'epsib3cda-5a7f1.firebaseapp.com',
           storageBucket: 'epsib3cda-5a7f1.appspot.com',
           measurementId: 'G-F536FXR6XB',
-
         )
       );
     }
